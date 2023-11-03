@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
+import FilterSort from "./FilterSort";
 import ProductItem from "./ProductItem";
 import Pagination from "./Pagination";
 
@@ -162,6 +163,10 @@ const ProductList = () => {
 
   return (
     <Container>
+      <FilterSort
+        products={products}
+        setFilteredProducts={setFilteredProducts}
+      />
       <ProductContainer>
         {currentProducts.map((product) => (
           <ProductItem key={product.id} product={product} />

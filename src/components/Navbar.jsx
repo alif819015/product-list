@@ -3,7 +3,10 @@ import styled from "styled-components";
 
 const Navbar = () => (
   <NavbarContainer>
-    <NavLogo href="/">Product List</NavLogo>
+    <NavLogo href="/">
+      <Image src="../../public/product.png"></Image>
+      <title>Product List</title>
+    </NavLogo>
     <NavMenu>
       <NavItem href="/">Home</NavItem>
       <NavItem href="/about">About</NavItem>
@@ -30,39 +33,33 @@ const NavLogo = styled.a`
   color: white;
   text-decoration: none;
   font-size: 1.5em;
-  @media only screen and (max-width: 320px) {
-      font-size: 1rem;
-      color: rgba(94, 184, 142, 0.925);
-      font-weight: 800;
-  }
-  @media only screen and (min-width: 360px) {
-    font-size: 1rem;
-      color: rgba(94, 184, 142, 0.925);
-      font-weight: 800;
-  }
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  title {
+    @media only screen and (max-width: 320px) {
+      display: none;
+    }
+    @media only screen and (min-width: 360px) {
+      display: none;
+    }
 
-  @media only screen and (min-width: 411px) {
-    font-size: 1rem;
-      color: rgba(94, 184, 142, 0.925);
-      font-weight: 800;
-  }
+    @media only screen and (min-width: 411px) {
+      display: none;
+    }
 
-  @media only screen and (min-width: 768px) {
-    font-size: 1rem;
-      color: rgba(94, 184, 142, 0.925);
-      font-weight: 800;
-  }
+    @media only screen and (min-width: 768px) {
+      display: none;
+    }
 
-  @media only screen and (min-width: 1024px) {
-    font-size: 1.5rem;
-      color: wheat;
-      font-weight: 800;
-  }
+    @media only screen and (min-width: 1024px) {
+      display: inline;
+    }
 
-  @media only screen and (min-width: 1280px) {
-    font-size: 1.75rem;
-      color: wheat;
-      font-weight: 800;
+    @media only screen and (min-width: 1280px) {
+      display: inline;
+    }
   }
 `;
 
@@ -79,4 +76,9 @@ const NavItem = styled.a`
   &:hover {
     color: #66a5ad;
   }
+`;
+
+const Image = styled.img`
+  height: 2.5rem;
+  width: 2.5rem;
 `;
