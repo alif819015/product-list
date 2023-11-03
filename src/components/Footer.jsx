@@ -16,7 +16,5 @@ const FooterContainer = styled.footer`
   color: white;
   text-align: center;
   padding: 20px;
-  /* position: fixed; */
-  /* bottom: 0; */
   width: 100%;
 `;

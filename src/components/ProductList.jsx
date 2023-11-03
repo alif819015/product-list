@@ -17,9 +17,9 @@ const productsData = [
 
   {
     id: 2,
-    title: "Samsung buds 2",
+    title: "MacBook Pro",
     description:
-      "As of my last knowledge update in January 2022, I don't have information on the Samsung Buds 2. For the latest details, please check the official Samsung website or reputable tech news sources.",
+      "The MacBook Pro, renowned for its powerful performance, sleek design, and brilliant Retina display, is a premium laptop by Apple. Ideal for professionals, it excels in creative tasks and multitasking.",
     price: 260,
     category: "laptop",
     imageUrl: "../../public/product/laptop.jpg",
@@ -37,9 +37,9 @@ const productsData = [
 
   {
     id: 4,
-    title: "Samsung buds 2",
+    title: "MacBook Pro",
     description:
-      "As of my last knowledge update in January 2022, I don't have information on the Samsung Buds 2. For the latest details, please check the official Samsung website or reputable tech news sources.",
+      "The MacBook Pro, renowned for its powerful performance, sleek design, and brilliant Retina display, is a premium laptop by Apple. Ideal for professionals, it excels in creative tasks and multitasking.",
     price: 270,
     category: "laptop",
     imageUrl: "../../public/product/laptop.jpg",
@@ -57,9 +57,9 @@ const productsData = [
 
   {
     id: 6,
-    title: "Samsung buds 2",
+    title: "MacBook Pro",
     description:
-      "As of my last knowledge update in January 2022, I don't have information on the Samsung Buds 2. For the latest details, please check the official Samsung website or reputable tech news sources.",
+      "The MacBook Pro, renowned for its powerful performance, sleek design, and brilliant Retina display, is a premium laptop by Apple. Ideal for professionals, it excels in creative tasks and multitasking.",
     price: 130,
     category: "laptop",
     imageUrl: "../../public/product/laptop.jpg",
@@ -77,9 +77,9 @@ const productsData = [
 
   {
     id: 8,
-    title: "Samsung buds 2",
+    title: "MacBook Pro",
     description:
-      "As of my last knowledge update in January 2022, I don't have information on the Samsung Buds 2. For the latest details, please check the official Samsung website or reputable tech news sources.",
+      "The MacBook Pro, renowned for its powerful performance, sleek design, and brilliant Retina display, is a premium laptop by Apple. Ideal for professionals, it excels in creative tasks and multitasking.",
     price: 20,
     category: "laptop",
     imageUrl: "../../public/product/laptop.jpg",
@@ -97,9 +97,9 @@ const productsData = [
 
   {
     id: 10,
-    title: "Samsung buds 2",
+    title: "MacBook Pro",
     description:
-      "As of my last knowledge update in January 2022, I don't have information on the Samsung Buds 2. For the latest details, please check the official Samsung website or reputable tech news sources.",
+      "The MacBook Pro, renowned for its powerful performance, sleek design, and brilliant Retina display, is a premium laptop by Apple. Ideal for professionals, it excels in creative tasks and multitasking.",
     price: 220,
     category: "laptop",
     imageUrl: "../../public/product/laptop.jpg",
@@ -117,9 +117,9 @@ const productsData = [
 
   {
     id: 12,
-    title: "Samsung buds 2",
+    title: "MacBook Pro",
     description:
-      "As of my last knowledge update in January 2022, I don't have information on the Samsung Buds 2. For the latest details, please check the official Samsung website or reputable tech news sources.",
+      "The MacBook Pro, renowned for its powerful performance, sleek design, and brilliant Retina display, is a premium laptop by Apple. Ideal for professionals, it excels in creative tasks and multitasking.",
     price: 10,
     category: "laptop",
     imageUrl: "../../public/product/laptop.jpg",
@@ -137,9 +137,9 @@ const productsData = [
 
   {
     id: 14,
-    title: "Samsung buds 2",
+    title: "MacBook Pro",
     description:
-      "As of my last knowledge update in January 2022, I don't have information on the Samsung Buds 2. For the latest details, please check the official Samsung website or reputable tech news sources.",
+      "The MacBook Pro, renowned for its powerful performance, sleek design, and brilliant Retina display, is a premium laptop by Apple. Ideal for professionals, it excels in creative tasks and multitasking.",
     price: 220,
     category: "laptop",
     imageUrl: "../../public/product/laptop.jpg",

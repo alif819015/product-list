@@ -17,7 +17,7 @@ function App() {
 
 export default App;
 
-const Banner = styled.div`
+export const Banner = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 auto;

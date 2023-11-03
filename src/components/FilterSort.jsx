@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react';
-import styled from 'styled-components';
+import { useState, useEffect } from "react";
+import styled from "styled-components";
 
 const FilterSort = ({ products, setFilteredProducts }) => {
-  const [categoryFilter, setCategoryFilter] = useState('');
-  const [sortOption, setSortOption] = useState('price-asc');
+  const [categoryFilter, setCategoryFilter] = useState("");
+  const [sortOption, setSortOption] = useState("price-asc");
 
   const handleFilter = (category) => {
     setCategoryFilter(category);
@@ -20,30 +20,27 @@ const FilterSort = ({ products, setFilteredProducts }) => {
   const filterProducts = (category, sortOption) => {
     let filteredProducts = [...products];
 
-    // Apply category filter
     if (category) {
-      filteredProducts = filteredProducts.filter((product) => product.category === category);
+      filteredProducts = filteredProducts.filter(
+        (product) => product.category === category
+      );
     }
-
-    // Apply sorting
     switch (sortOption) {
-      case 'price-asc':
+      case "price-asc":
         filteredProducts.sort((a, b) => a.price - b.price);
         break;
-      case 'price-desc':
+      case "price-desc":
         filteredProducts.sort((a, b) => b.price - a.price);
         break;
-      case 'title-asc':
+      case "title-asc":
         filteredProducts.sort((a, b) => a.title.localeCompare(b.title));
         break;
-      case 'title-desc':
+      case "title-desc":
         filteredProducts.sort((a, b) => b.title.localeCompare(a.title));
         break;
       default:
         break;
     }
-
-    // Update the filtered products
     setFilteredProducts(filteredProducts);
   };
 
@@ -51,14 +48,18 @@ const FilterSort = ({ products, setFilteredProducts }) => {
     <Container>
       <FilterSection>
         <label>Filter by Category:</label>
-        <select value={categoryFilter} onChange={(e) => handleFilter(e.target.value)}>
+        <select
+          value={categoryFilter}
+          onChange={(e) => handleFilter(e.target.value)}
+        >
           <option value="">All</option>
-          {/* Add unique categories based on your data */}
-          {[...new Set(products.map((product) => product.category))].map((category) => (
-            <option key={category} value={category}>
-              {category}
-            </option>
-          ))}
+          {[...new Set(products.map((product) => product.category))].map(
+            (category) => (
+              <option key={category} value={category}>
+                {category}
+              </option>
+            )
+          )}
         </select>
       </FilterSection>
 
@@ -80,38 +81,38 @@ const Container = styled.div`
   gap: 10px;
   margin-top: 70px;
   @media only screen and (max-width: 320px) {
-      padding: 5px 20px;
-      display: flex;
-      flex-direction: column;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
   }
   @media only screen and (min-width: 360px) {
     padding: 5px 20px;
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 
   @media only screen and (min-width: 411px) {
     padding: 5px 20px;
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 
   @media only screen and (min-width: 768px) {
     padding: 5px 20px;
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 
   @media only screen and (min-width: 1024px) {
     padding: 5px 0;
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 
   @media only screen and (min-width: 1280px) {
     padding: 5px 0;
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 `;
 

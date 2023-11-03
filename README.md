@@ -1,8 +1,12 @@
-# React + Vite
+# Product List 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React.js Base Project and I used styled-components for Design.
 
-Currently, two official plugins are available:
+Below is some description of how I ran the project and how I worked on the project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- First install React with this code "npm create vite@latest product-list -- --template react" from React Router.
+- Then delete the codes of app.css and delete the by-default codes of index.css.
+- Then some custom components are placed.
+- Here are products filtered by category. And sorted into low to high and high to low and A to Z and Z to A categories.
+- It is made responsive for all devices mobile tablet and desktop.
+- Here four cards are placed on a page and the pagination system is don.
