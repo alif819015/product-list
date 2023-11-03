@@ -12,7 +12,7 @@ const productsData = [
       "As of my last update in January 2022, there is no information on the iPhone 14. Stay tuned to the official Apple website or reliable tech news sources for updates",
     price: 130,
     category: "phone",
-    imageUrl: "../../public/product/iphone14.jpg",
+    imageUrl: "https://i.ibb.co/LkQJppJ/iphone14.jpg",
   },
 
   {
@@ -22,7 +22,7 @@ const productsData = [
       "The MacBook Pro, renowned for its powerful performance, sleek design, and brilliant Retina display, is a premium laptop by Apple. Ideal for professionals, it excels in creative tasks and multitasking.",
     price: 260,
     category: "laptop",
-    imageUrl: "../../public/product/laptop.jpg",
+    imageUrl: "https://i.ibb.co/ZmQ8ZPq/laptop.jpg",
   },
 
   {
@@ -32,7 +32,7 @@ const productsData = [
       "As of my last update in January 2022, there is no information on the iPhone 14. Stay tuned to the official Apple website or reliable tech news sources for updates",
     price: 330,
     category: "phone",
-    imageUrl: "../../public/product/iphone14.jpg",
+    imageUrl: "https://i.ibb.co/LkQJppJ/iphone14.jpg",
   },
 
   {
@@ -42,7 +42,7 @@ const productsData = [
       "The MacBook Pro, renowned for its powerful performance, sleek design, and brilliant Retina display, is a premium laptop by Apple. Ideal for professionals, it excels in creative tasks and multitasking.",
     price: 270,
     category: "laptop",
-    imageUrl: "../../public/product/laptop.jpg",
+    imageUrl: "https://i.ibb.co/ZmQ8ZPq/laptop.jpg",
   },
 
   {
@@ -52,7 +52,7 @@ const productsData = [
       "As of my last update in January 2022, there is no information on the iPhone 14. Stay tuned to the official Apple website or reliable tech news sources for updates",
     price: 910,
     category: "phone",
-    imageUrl: "../../public/product/iphone14.jpg",
+    imageUrl: "https://i.ibb.co/LkQJppJ/iphone14.jpg",
   },
 
   {
@@ -62,7 +62,7 @@ const productsData = [
       "The MacBook Pro, renowned for its powerful performance, sleek design, and brilliant Retina display, is a premium laptop by Apple. Ideal for professionals, it excels in creative tasks and multitasking.",
     price: 130,
     category: "laptop",
-    imageUrl: "../../public/product/laptop.jpg",
+    imageUrl: "https://i.ibb.co/ZmQ8ZPq/laptop.jpg",
   },
 
   {
@@ -72,7 +72,7 @@ const productsData = [
       "As of my last update in January 2022, there is no information on the iPhone 14. Stay tuned to the official Apple website or reliable tech news sources for updates",
     price: 330,
     category: "phone",
-    imageUrl: "../../public/product/iphone14.jpg",
+    imageUrl: "https://i.ibb.co/LkQJppJ/iphone14.jpg",
   },
 
   {
@@ -82,7 +82,7 @@ const productsData = [
       "The MacBook Pro, renowned for its powerful performance, sleek design, and brilliant Retina display, is a premium laptop by Apple. Ideal for professionals, it excels in creative tasks and multitasking.",
     price: 20,
     category: "laptop",
-    imageUrl: "../../public/product/laptop.jpg",
+    imageUrl: "https://i.ibb.co/ZmQ8ZPq/laptop.jpg",
   },
 
   {
@@ -92,7 +92,7 @@ const productsData = [
       "As of my last update in January 2022, there is no information on the iPhone 14. Stay tuned to the official Apple website or reliable tech news sources for updates",
     price: 330,
     category: "phone",
-    imageUrl: "../../public/product/iphone14.jpg",
+    imageUrl: "https://i.ibb.co/LkQJppJ/iphone14.jpg",
   },
 
   {
@@ -102,7 +102,7 @@ const productsData = [
       "The MacBook Pro, renowned for its powerful performance, sleek design, and brilliant Retina display, is a premium laptop by Apple. Ideal for professionals, it excels in creative tasks and multitasking.",
     price: 220,
     category: "laptop",
-    imageUrl: "../../public/product/laptop.jpg",
+    imageUrl: "https://i.ibb.co/ZmQ8ZPq/laptop.jpg",
   },
 
   {
@@ -112,7 +112,7 @@ const productsData = [
       "As of my last update in January 2022, there is no information on the iPhone 14. Stay tuned to the official Apple website or reliable tech news sources for updates",
     price: 10,
     category: "phone",
-    imageUrl: "../../public/product/iphone14.jpg",
+    imageUrl: "https://i.ibb.co/LkQJppJ/iphone14.jpg",
   },
 
   {
@@ -122,7 +122,7 @@ const productsData = [
       "The MacBook Pro, renowned for its powerful performance, sleek design, and brilliant Retina display, is a premium laptop by Apple. Ideal for professionals, it excels in creative tasks and multitasking.",
     price: 10,
     category: "laptop",
-    imageUrl: "../../public/product/laptop.jpg",
+    imageUrl: "https://i.ibb.co/ZmQ8ZPq/laptop.jpg",
   },
 
   {
@@ -132,7 +132,7 @@ const productsData = [
       "As of my last update in January 2022, there is no information on the iPhone 14. Stay tuned to the official Apple website or reliable tech news sources for updates",
     price: 170,
     category: "phone",
-    imageUrl: "../../public/product/iphone14.jpg",
+    imageUrl: "https://i.ibb.co/LkQJppJ/iphone14.jpg",
   },
 
   {
@@ -142,7 +142,7 @@ const productsData = [
       "The MacBook Pro, renowned for its powerful performance, sleek design, and brilliant Retina display, is a premium laptop by Apple. Ideal for professionals, it excels in creative tasks and multitasking.",
     price: 220,
     category: "laptop",
-    imageUrl: "../../public/product/laptop.jpg",
+    imageUrl: "https://i.ibb.co/ZmQ8ZPq/laptop.jpg",
   },
 ];
 

@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Navbar = () => (
   <NavbarContainer>
     <NavLogo href="/">
-      <Image src="../../public/product.png"></Image>
+      <Image src="https://i.ibb.co/HNjLq8T/product.png"></Image>
       <title>Product List</title>
     </NavLogo>
     <NavMenu>

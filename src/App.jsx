@@ -23,7 +23,7 @@ export const Banner = styled.div`
   margin: 0 auto;
   box-sizing: border-box;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(97, 6, 77, 0.568)),
-    url("../public/bacground.jpg");
+    url("https://i.ibb.co/ySC8TPZ/bacground.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
